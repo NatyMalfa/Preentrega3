@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link iconos página -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../image/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../image/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/logo/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Contacto</title>
+</head>
+<body class="bg-secondary">
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkboton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg> 
+            </label>
+            <a href="../index.html" class="enlaza">
+                <img src="../image/logo/logo_ai2_blanco_riosdevida.jpg" alt="Iglesia Ríos de Vida Rojas" class="logo">
+            </a>
+            <ul>
+                <li><a href="./eventos.html">Eventos</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./testimonios.html">Testimonios</a></li>
+                <li><a class="activa" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section >
+            <div class="encabezado">
+                <h1>Estemos en contacto</h1>
+                <p>Esperamos tu visita, llamada o mensaje. Nos complacerá recibir tus preguntas, saludos o sugerencias.</p>
+            </div>
+        </section>
+            <!--Formulario-->
+            <section class="d-flex justify-content-center">
+                <div class="card col-sm-6 p-3" id="formulario">
+                    <div class="mb-3" id="formulario">
+                        <h4>Escríbenos</h4>
+                    </div>
+                    <div class="mb-2">
+                        <form action="">
+                            <div class="mb-2">
+                                <label for="nombreApellido">Nombre y Apellido</label>
+                                <input type="text" class="form-control" id="nombreApellido" name="nombreApellido" placeholder="Nombre Apellido">
+                            </div>
+                            <div class="mb-2">
+                                <label for="telefono">Teléfono Celular</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefonoCelular" placeholder="+5492474560000">
+                            </div>
+                            <div class="mb-2">
+                                <label for="correoElectronico">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correoElectronico" name="correoElectronico" placeholder="tunombre@tucorreo.com">
+                            </div>
+                            <div class="mb-2">
+                                <label for="comentarios">Comentarios</label>
+                                <textarea name="comentario" class="form-control" id="comentarios" cols="40" rows="15" placeholder="Dejanos tu consulta"></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <button class="btn btn-primary">Enviar</button>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <aside>
+        <section class="ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.032628141286!2d-60.740604385209934!3d-34.196642743579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b85784f1461399%3A0x755c9c9450d05404!2sIglesia%20R%C3%ADos%20de%20Vida%20Rojas!5e0!3m2!1ses-419!2sar!4v1665427794362!5m2!1ses-419!2sar" width="350" height="350" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+            <div class="encontranos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16">
+                <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+                </svg>
+                <h4>Puedes encontrarnos aquí</h4>
+            </div>
+    </aside>
+    <footer>
+        <div"container-footer-all">
+            <div class="container-body">
+                <div class="colum1">
+                    <img src="../image/logo/logosolo1.jpeg.png" alt="Logo" width="46" height="46" class="img-fluid">
+                    <p>Y nosotros hemos conocido y creído el amor que Dios tiene para con nosotros. Dios es amor; y el que permanece en amor, permanece en Dios, y Dios en él.</p>
+                    <p>(1 Jn 4:16)</p>
+                </div>
+            <div class="colum2">
+                <h1>Redes Sociales</h1>
+                <div class="row">
+                    <a href="https://www.instagram.com/riosdevidarojas_/" target="_blank">
+                        <img src="../image/img/instagram.png" alt="" class="img-fluid">
+                        <p>Seguinos en Instagram</p>
+                    </a>
+                </div>
+                <div class="row">
+                        <a href="https://www.facebook.com/iglesia.riosdevida.33" target="_blank">
+                            <img src="../image/img/facebook (1).png" alt="" class="img-fluis">
+                            <p>Seguinos en facebook</p>
+                        </a>
+                </div>
+            </div>
+                <div class="colum3">
+                <h1>Información contacto</h1>
+                <div class="row2">
+                    <img src="../image/img/casa.png" alt="" class="img-fluid">
+                    <label for="">Argentina, Prov. Buenos Aires, Ciudad Rojas, M. U. de Alvear N° 505</label>
+                </div>
+                <div class="row2">
+                    <img src="../image/img/llamada-telefonica (1).png" alt="" class="img-fluid">
+                    <label for="">+54-9-2474-471741</label>
+                </div>
+                <div class="row2">
+                    <img src="../image/img/gmail (1).png" alt="" class="img-fluid">
+                    <label for="">rojas.riosdevida@gmail.com</label>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+                <div class="copyright">
+                    © 2022 Todos los Derechos Reservados | <a href="">Natalia Malfa</a>
+                </div>
+                <div class="information">
+                    <a href="">Información Organismo</a> | <a href="">Privación y Política</a> | <a href="">Terminos y Condiciones</a>
+                </div>
+            </div>
+    </footer>
+    <!-- CDN Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
