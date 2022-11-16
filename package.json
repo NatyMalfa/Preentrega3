@@ -1,0 +1,22 @@
+{
+  "name": "iglesia_rios_de_vida_rojas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatyMalfa/Preentrega3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatyMalfa/Preentrega3/issues"
+  },
+  "homepage": "https://github.com/NatyMalfa/Preentrega3#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
