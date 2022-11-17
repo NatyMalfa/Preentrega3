@@ -12,11 +12,6 @@ body {
         background-color: transparent;
         width: 100%;
         height: 80px;
-    
-        &.activa, &:hover {
-            background: #2c3e50;
-            transition: .5s;
-        }
         ul {
             text-align: right;
             li {
