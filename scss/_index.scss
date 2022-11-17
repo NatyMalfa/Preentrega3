@@ -60,7 +60,7 @@ h1 {
     &:nth-child(6) {
         transform: rotateY(200deg) translateZ(300px);
     }
-    :nth-child(7) {
+    &:nth-child(7) {
         transform: rotateY(240deg) translateZ(300px);
     }
     &:nth-child(8) {
