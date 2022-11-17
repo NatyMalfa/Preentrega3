@@ -469,19 +469,19 @@ section article h1 {
 }
 
 #formulario {
-  background-image: linear-gradient(white black);
+  background-color: transparent;
 }
 
 form {
-  background-image: linear-gradient(white black);
+  background-color: transparent;
 }
 
 div h4 {
-  color: white;
+  color: black;
 }
 
 label {
-  color: white;
+  color: black;
   font-size: 18px;
 }
 
