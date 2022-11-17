@@ -37,14 +37,22 @@ body nav ul li a.activa, body nav ul li a:hover {
   background: #2c3e50;
   transition: 0.5s;
 }
-body nav .logo {
+
+.logo {
   height: 40px;
 }
-body nav .enlaza {
+.logo.activa, .logo:hover {
+  background: #2c3e50;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.enlaza {
   position: absolute;
   padding: 20px 50px;
 }
-body nav .checkboton {
+
+.checkboton {
   float: right;
   font-size: 30px;
   color: white;
@@ -53,22 +61,24 @@ body nav .checkboton {
   cursor: pointer;
   display: none;
 }
-body nav #check {
+
+#check {
   display: none;
 }
+
 @media (max-width: 952px) {
-  body nav .enlaza {
+  .enlaza {
     padding-left: 20px;
   }
-  body nav nav ul li a {
+  nav ul li a {
     font-size: 16px;
   }
 }
 @media (max-width: 858px) {
-  body nav .checkboton {
+  .checkboton {
     display: block;
   }
-  body nav ul {
+  ul {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -76,22 +86,21 @@ body nav #check {
     left: -100%;
     transition: all 0.5s;
   }
-  body nav nav ul li {
+  nav ul li {
     display: block;
     line-height: 30px;
   }
-  body nav nav ul li a {
+  nav ul li a {
     font-size: 20px;
     color: black;
   }
-  body nav li a:hover, body nav li a.activa {
+  li a:hover, li a.activa {
     cursor: pointer;
   }
-  body nav #check:checked ~ ul {
+  #check:checked ~ ul {
     left: 0;
   }
 }
-
 footer {
   width: 100%;
   background: #2c3e50;
@@ -220,7 +229,7 @@ h1 {
 .presentacion-todo {
   width: 210px;
   margin: auto;
-  perspective: 1200px;
+  perspective: 1100px;
   position: relative;
   margin-top: 50px;
 }
