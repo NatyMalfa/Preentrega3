@@ -275,7 +275,7 @@ h1 {
 .presentacion-carrousel figure:nth-child(6) {
   transform: rotateY(200deg) translateZ(300px);
 }
-.presentacion-carrousel figure :nth-child(7) {
+.presentacion-carrousel figure:nth-child(7) {
   transform: rotateY(240deg) translateZ(300px);
 }
 .presentacion-carrousel figure:nth-child(8) {
