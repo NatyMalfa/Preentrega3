@@ -304,6 +304,7 @@ img {
   opacity: 0;
   transition: all 300ms;
 }
+
 .paginacion-item:hover img {
   opacity: 1;
   transform: scale(1);
