@@ -12,7 +12,7 @@ h1 {
 
 /* Carrousell de Imagenes */
 
-.contenedor-all {
+.carrousel-todo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ img {
     max-width: 100%;
 }
 
-.contenedor {
+.carrousel {
     position: relative;
     max-width: 640px;
     width: 100%;
@@ -54,8 +54,9 @@ img {
 .paginacion {
     position: absolute;
     bottom: 20px;
+    left: 0;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -70,8 +71,9 @@ img {
     height: 16px;
     border-radius: 4px;
     overflow: hidden;
+    cursor: pointer;
     background: rgba( 255, 255, 255, 0.5);
-    margin: 10px;
+    margin: 0 10px;
     text-align: center;
     transition: all 300ms;
 }
@@ -94,94 +96,94 @@ img {
     transform: scale(1);
 }
 
-input [id="1"]:checked ~ .slide {
+input[id="1"]:checked ~ .slide {
     animation: none;
     transform: translate3d(0,0,0);
 }
 
-input [id="1"]:checked ~ .paginacion .paginacion-item [for="1"] {
-    background: white;
+input[id="1"]:checked ~ .paginacion .paginacion-item[for="1"]{
+    background: #fff;
 }
 
-input [id="2"]:checked ~ .slide {
+input[id="2"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*1),0,0);
+    transform: translate3d(calc( -100% * 1),0,0);
 }
 
-input [id="2"]:checked ~ .paginacion .paginacion-item [for="2"] {
-    background: white;
+input[id="2"]:checked ~ .paginacion .paginacion-item[for="2"]{
+    background: #fff;
 }
 
-input [id="3"]:checked ~ .slide {
+input[id="3"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*2),0,0);
+    transform: translate3d(calc( -100% * 2),0,0);
 }
 
-input [id="3"]:checked~.paginacion .paginacion-item [for="3"] {
-    background: white;
+input[id="3"]:checked~.paginacion .paginacion-item[for="3"]{
+    background: #fff;
 }
 
-input [id="4"]:checked ~ .slide {
+input[id="4"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*3),0,0);
+    transform: translate3d(calc( -100% * 3),0,0);
 }
 
-input [id="4"]:checked ~ .paginacion .paginacion-item [for="4"] {
-    background: white;
+input[id="4"]:checked ~ .paginacion .paginacion-item[for="4"]{
+    background: #fff;
 }
 
-input [id="5"]:checked ~ .slide {
+input[id="5"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*4),0,0);
+    transform: translate3d(calc( -100% * 4),0,0);
 }
 
-input [id="5"]:checked ~ .paginacion .paginacion-item [for="5"] {
-    background: white;
+input[id="5"]:checked ~ .paginacion .paginacion-item[for="5"]{
+    background: #fff;
 }
 
-input [id="6"]:checked ~ .slide {
+input[id="6"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*5),0,0);
+    transform: translate3d(calc( -100% * 5),0,0);
 }
 
-input [id="6"]:checked ~ .paginacion .paginacion-item [for="6"] {
-    background: white;
+input[id="6"]:checked ~ .paginacion .paginacion-item[for="6"]{
+    background: #fff;
 }
 
-input [id="7"]:checked ~ .slide {
+input[id="7"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*6),0,0);
+    transform: translate3d(calc( -100% * 6),0,0);
 }
 
-input [id="7"]:checked ~ .paginacion .paginacion-item [for="7"] {
-    background: white;
+input[id="7"]:checked ~ .paginacion .paginacion-item[for="7"]{
+    background: #fff;
 }
 
-input [id="8"]:checked ~ .slide {
+input[id="8"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*7),0,0);
+    transform: translate3d(calc( -100% * 7),0,0);
 }
 
-input [id="8"]:checked ~ .paginacion .paginacion-item [for="8"] {
-    background: white;
+input[id="8"]:checked ~ .paginacion .paginacion-item[for="8"]{
+    background: #fff;
 }
 
-input [id="9"]:checked ~ .slide {
+input[id="9"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*8),0,0);
+    transform: translate3d(calc( -100% * 8),0,0);
 }
 
-input [id="9"]:checked ~ .paginacion .paginacion-item [for="9"] {
-    background: white;
+input[id="9"]:checked ~ .paginacion .paginacion-item[for="9"]{
+    background: #fff;
 }
 
-input [id="10"]:checked ~ .slide {
+input[id="10"]:checked ~ .slide {
     animation: none;
-    transform: translate3d(calc(-100*9),0,0);
+    transform: translate3d(calc( -100% * 9),0,0);
 }
 
-input [id="10"]:checked ~ .paginacion .paginacion-item [for="10"] {
-    background: white;
+input[id="10"]:checked ~ .paginacion .paginacion-item[for="10"]{
+    background: #fff;
 }
 
 @keyframes autoplay {
