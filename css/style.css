@@ -68,7 +68,7 @@ body nav ul li a.activa, body nav ul li a:hover {
 
 @media (max-width: 952px) {
   .enlaza {
-    padding-left: 20px;
+    padding-left: 10px;
   }
   nav ul li a {
     font-size: 16px;
