@@ -81,6 +81,7 @@ body nav ul li a.activa, body nav ul li a:hover {
   }
   .checkboton {
     display: block;
+    padding-left: -90%;
   }
   ul {
     position: fixed;
