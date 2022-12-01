@@ -68,13 +68,17 @@ body nav ul li a.activa, body nav ul li a:hover {
 
 @media (max-width: 952px) {
   .enlaza {
-    padding-left: 10px;
+    padding-left: 20px;
   }
   nav ul li a {
     font-size: 16px;
   }
 }
 @media (max-width: 858px) {
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
   .checkboton {
     display: block;
   }
@@ -92,7 +96,6 @@ body nav ul li a.activa, body nav ul li a:hover {
   }
   nav ul li a {
     font-size: 20px;
-    color: black;
   }
   li a:hover, li a.activa {
     cursor: pointer;
@@ -305,6 +308,12 @@ h1 {
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+@media (max-width: 858px) {
+  .presentacion-todo {
+    width: 50%;
+    margin-bottom: 10%;
   }
 }
 /* Párrafo */
