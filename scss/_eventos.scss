@@ -43,8 +43,13 @@ main h1 {
         text-decoration: none;
         list-style: none;
         padding: 0 1rem;
-        font-size: small;
+        font-size: 16px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
 
+@media (max-width: 858px) {
+    ul {
+        font-size: small;
+    }
+}
