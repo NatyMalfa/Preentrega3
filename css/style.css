@@ -75,8 +75,12 @@ body nav ul li a.activa, body nav ul li a:hover {
   }
 }
 @media (max-width: 858px) {
+  .enlaza {
+    padding-left: 0;
+  }
   .checkboton {
     display: block;
+    margin-right: 15px;
   }
   ul {
     position: fixed;
