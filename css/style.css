@@ -480,6 +480,7 @@ main h1 {
   margin: 20px;
   text-align: center;
   transition: all 0.25s;
+  background-image: linear-gradient(white black);
   margin-bottom: 15%;
 }
 .contenedor .evento:hover {
@@ -498,18 +499,10 @@ main h1 {
   list-style: none;
   padding: 0 1rem;
   font-size: 16px;
+  font-weight: 300px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-@media (max-width: 858px) {
-  .contenedor .evento ul {
-    text-decoration: none;
-    list-style: none;
-    padding: 0 1rem;
-    font-size: 8px;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  }
-}
 /* Estilos de Nosotros */
 .banner {
   width: 100%;
