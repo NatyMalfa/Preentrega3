@@ -494,7 +494,7 @@ main h1 {
 .contenedor .evento h3 {
   font-size: medium;
 }
-.contenedor .evento ul {
+.contenedor .evento.texto {
   text-decoration: none;
   list-style: none;
   padding: 0 1rem;
